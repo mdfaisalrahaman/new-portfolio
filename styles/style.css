@@ -23,6 +23,7 @@
     border-radius: 5px;
 }
 .header-background{
+    margin-bottom: 50px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +42,7 @@
     text-align: center;
 }
 .header-title{
-    margin: 0px;
+    margin: 0;
     color: black;
     font-size: 48px;
     font-weight: bolder;
@@ -57,4 +58,80 @@
     padding: 5px 10px 5px 10px;
     font-size: 20px;
     border-radius: 5px; 
+}
+.titles{
+    width: 900px;
+    text-align: center;
+}
+.Developer{
+    margin: 20px 250px ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 15px;
+}
+.Developer-sect{
+    width: 800px;
+    margin: 20px 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.dts{
+    color: #0D1321;
+    font-size: 17px;
+    font-weight: 400;
+}
+.d-heading{
+    color: #0D1321B3;
+    font-size: 24px;
+    font-weight: 600;
+}
+.btn-2{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+}
+.d-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.d-dcprtn{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;  
+}
+.Inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30;
+    margin: 30px;
+    padding: 0px;
+    text-align: center;
+}
+.inspire{
+    width: 850px;
+    margin-bottom: 40px;
+}
+.iframe{
+    
+    border-radius: 10px;
+}
+.video{
+    margin: auto;
+    padding: 25px;
+    box-shadow: #0D1321;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+
 }
