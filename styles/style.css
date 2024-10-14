@@ -70,7 +70,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(13, 19, 33, 0.02);
+    background: #56466605;
     border-radius: 15px;
 }
 .Developer-sect{
@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #FFFFFF;
+    background-color: #eae7e7fa;
     border-radius: 15px;
 }
 .dts{
@@ -100,7 +100,7 @@
     font-size: 18px;
 }
 .d-title{
-    color: rgb(13, 19, 33);
+    color: rgb(25, 37, 67);
     font-size: 32px;
     font-weight: 800;
 }
