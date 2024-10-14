@@ -22,6 +22,12 @@
     font-size: 20px;
     border-radius: 5px;
 }
+.header-background{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .header{
     margin: auto;
     padding: 0;
@@ -35,6 +41,7 @@
     text-align: center;
 }
 .header-title{
+    margin: 0px;
     color: black;
     font-size: 48px;
     font-weight: bolder;
@@ -47,7 +54,6 @@
 .btn-primary{
     color: white;
     background: black;
-    margin: 20px;
     padding: 5px 10px 5px 10px;
     font-size: 20px;
     border-radius: 5px; 
