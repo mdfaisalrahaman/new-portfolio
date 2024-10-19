@@ -140,7 +140,7 @@
     max-width: 950px;
 }
 .t-header{
-    margin-bottom: 30px;
+    margin: 0;
     padding: 10px;
     display: flex;
     flex-direction: column;
