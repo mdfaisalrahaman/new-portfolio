@@ -152,37 +152,33 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;align-items: center;
     gap: 30px;
-    margin-bottom: 40px;
 }
 .anchor{
     color: black;
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
-    line-height: 5px;
+}
+.card{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
 .content-1{
-    padding: 20px;
     background-color: rgb(253, 218, 244);
-    border-radius: 10px;
 }
 .content-2{
-    padding: 15px;
     background-color: rgb(254, 241, 226);
-    border-radius: 10px;
 }
 .content-3{
-    padding: 15px;
     background-color: rgb(214, 248, 248);
-    border-radius: 10px;
 }
 .foot{
     margin: auto;;
     max-width: 950px;
-    
-    background: url(../assets/handshake.jpg);
+    background: url(../images/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
