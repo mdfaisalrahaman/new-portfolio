@@ -1,8 +1,10 @@
-
 *{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+
 }
 .navbar{
     display: flex;
@@ -96,7 +98,7 @@
 }
 .btn-2{
     background-color: white;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 20px;
     font-size: 18px;
 }
 .d-title{
@@ -135,7 +137,7 @@
 }
 .Target{
     margin: auto;
-    width: 950px;
+    max-width: 950px;
 }
 .t-header{
     margin-bottom: 30px;
@@ -150,8 +152,9 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     gap: 30px;
+    margin-bottom: 40px;
 }
 .anchor{
     color: black;
@@ -161,7 +164,7 @@
     line-height: 5px;
 }
 .content-1{
-    padding: 15px;
+    padding: 20px;
     background-color: rgb(253, 218, 244);
     border-radius: 10px;
 }
@@ -175,3 +178,55 @@
     background-color: rgb(214, 248, 248);
     border-radius: 10px;
 }
+.foot{
+    margin: auto;;
+    max-width: 950px;
+    
+    background: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 260px;
+    gap: 30px;
+
+}
+.footer{
+    margin-top: auto;
+
+}
+.f-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.f-descrb{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.input-txt{
+    padding: 15px;
+    width: calc(100% - 170px);
+    height: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+.newsletter .btn-2{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.t-center{
+    text-align: center;
+}
+
